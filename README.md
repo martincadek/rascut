@@ -1,2 +1,2 @@
-# rascut
-"rascut" stands for R Adult Social Care Utilities which is simple package with functions used across variety of projects at the ASC team in the DHSC.
+# README
+R Package with utility functions for Adult Social Care team at the Department of Health and Social Care - rascut.
