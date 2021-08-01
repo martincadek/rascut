@@ -14,6 +14,6 @@ This function takes vector of strings and turns each string to snake case format
 The function also replaces any \% symbols with "perc".
 }
 \examples{
-require(rascut)
 custom_snake_case("50 \% of lions")
 }
+\keyword{snake}
