@@ -4,9 +4,12 @@
 \name{rascut-package}
 \alias{rascut}
 \alias{rascut-package}
-\title{rascut: Functions Used across Variety of Projects at the ASC Team in the DHSC.}
+\title{rascut: Functions Used across Variety of Projects at the ASC Team in the DHSC}
 \description{
-"rascut" stands for R Adult Social Care (ASC) Utilities which is simple package with functions used across variety of projects at the ASC team in the Department of Health and Social Care. The primary purpose of the package is to provide single point of access to all functions used across the projects and improve reproducibility of these projects.
+The rascut acronym stands for R Adult Social Care (ASC) Utilities. These are collection of
+     functions used across variety of projects at the ASC team in the Department of Health and Social Care. 
+     The primary purpose is to provide single point of access to all functions and improve reproducibility 
+     of these projects.
 }
 \author{
 \strong{Maintainer}: Martin Cadek \email{martin.cadek@dhsc.co.uk}

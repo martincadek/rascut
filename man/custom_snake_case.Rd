@@ -11,9 +11,9 @@ custom_snake_case(x)
 }
 \description{
 This function takes vector of strings and turns each string to snake case format.
-The function also replaces any \% symbols with "perc". Further modifiers can be added before
-the function internally uses the snakecase::to_any_case(x, case = "snake").
+The function also replaces any \% symbols with "perc".
 }
 \examples{
-custom_snake_case(rownames(mtcars))
+require(rascut)
+custom_snake_case("50 \% of lions")
 }
