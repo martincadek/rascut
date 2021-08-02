@@ -1,0 +1,49 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# rascut
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of rascut is to compile utility functions for Adult Social Care team at the Department of Health and Social Care. The package helps the team to maintain reproducibility across various projects and reduces code duplication caused by copying entire function. The functions included in the package can cover various situations. The package is available only from [GitHub](https://github.com/) and devtools are required to install the package.
+
+## Installation
+
+You can install the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("martincadek/rascut")
+```
+## Example
+
+Typically the package is used in setup.R or similar. This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(rascut) # loading all functions from the package
+library(rascut, lib.loc = "all_na_rows") # loading selected functions from the package
+
+# Running the function
+mtcars[1,] <- NA
+head(mtcars)
+all_na_rows(mtcars)
+
+# Running the function without calling library()
+mtcars[1,] <- NA
+head(mtcars)
+rascut::all_na_rows(mtcars)
+
+```

@@ -18,7 +18,10 @@ RoxygenNote: 7.1.1
 Imports: 
     checkmate,
     data.table,
-    snakecase
+    datasets,
+    snakecase,
+    stats,
+    utils
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
