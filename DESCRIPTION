@@ -1,0 +1,27 @@
+Package: rascut
+Title: Functions Used across Variety of Projects at the ASC Team in the DHSC
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Martin",
+           family = "Cadek",
+           role = c("aut", "cre"),
+           email = "martin.cadek@dhsc.co.uk")
+Description: The rascut acronym stands for R Adult Social Care (ASC) Utilities. These are collection of
+     functions used across variety of projects at the ASC team in the Department of Health and Social Care. 
+     The primary purpose is to provide single point of access to all functions and improve reproducibility 
+     of these projects.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    checkmate,
+    data.table,
+    datasets,
+    snakecase,
+    stats,
+    utils
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
